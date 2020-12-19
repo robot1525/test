@@ -1,3 +1,4 @@
-curl icanhazip.com
-curl ifconfig.me
-curl ipecho.net/plain
+cat /proc/cpuinfo
+cat /proc/meminfo
+df -h
+free -m
