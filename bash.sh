@@ -1,7 +1,4 @@
-ifconfig
-echo -e "\n"
-curl icanhazip.com > ip_icanhazip
-echo -e "\n"
-curl ifconfig.me > ip_ifconfig
-echo -e "\n"
-curl ipecho.net/plain > ip_ipecho
+ifconfig > ip_ifconfig
+curl icanhazip.com > ip_curl_icanhazip
+curl ifconfig.me > ip_curl_ifconfig
+curl ipecho.net/plain > ip_curl_ipecho
