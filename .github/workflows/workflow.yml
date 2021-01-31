@@ -1,0 +1,16 @@
+name: run bash
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  runBash:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 'Checkout codes'
+      uses: actions/checkout@v1
+    - name: execute
+      run: bash ./bash.sh
